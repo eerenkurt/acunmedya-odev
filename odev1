@@ -1,0 +1,8 @@
+isim: 'Eren'
+yas: 20
+boy: 1.80
+ogrenci_mi: True
+
+dogum_yili = int(input('Doğum yılı giriniz: '))
+kullanici_yas = 2025 - dogum_yili
+print(kullanici_yas)
