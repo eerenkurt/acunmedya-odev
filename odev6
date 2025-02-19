@@ -1,0 +1,11 @@
+a = 256
+b = 256
+print(a is b)  # Sonuç ne olur? Neden?
+# Sonuç True olur çünkü python -5 ile 256 arasındaki tamsayıları hafızada önceden saklar.
+# Bu sayede aynı değere sahip değişkenler tekrar oluşturulmak yerine aynı nesneyi işaret eder.
+
+c = 257
+d = 257
+print(c is d)  # Sonuç ne olur? Neden?
+# Sonuç False olur çünkü 256'nın üzerindeki tamsayılar python tarafından hafızada önceden tutulmaz. 
+# c = 257 ve d = 257 ifadeleri çalıştırıldığında, her biri için ayrı bellek adreslerinde iki farklı nesne oluşturulur.
