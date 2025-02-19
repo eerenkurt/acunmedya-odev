@@ -1,0 +1,26 @@
+yas = int(input("Yaşınızı girin: "))
+
+print("Yaş 18 ile 65 arasında mı?", yas > 18 and yas < 65)
+
+print("Yaş 18'den küçük veya 65'ten büyük mü?", yas < 18 or yas > 65)
+
+print("Yaş 25 değil mi?", not (yas == 25))
+
+
+
+
+sayi = int(input("Bir sayı girin: "))
+
+print("Sayı çift ve pozitif mi?", sayi % 2 == 0 and sayi > 0)
+
+
+
+
+yas = int(input("Yaşınızı girin: "))
+
+ehliyet = input("Ehliyetiniz var mı? (evet/hayır): ")
+
+if yas > 18 and ehliyet == "evet":
+    print("Araba kullanabilirsiniz.")
+else:
+    print("Araba kullanamazsınız.")
